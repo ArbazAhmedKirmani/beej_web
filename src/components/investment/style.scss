@@ -1,0 +1,69 @@
+@import "../../variables.scss";
+
+#investment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 5rem 10rem;
+  background: linear-gradient(0deg, rgba(4, 4, 4, 0.3), #020b16);
+  text-align: center;
+
+  h1 {
+    font-family: $font-secondary;
+    line-height: 3;
+    font-size: 3rem;
+    text-shadow: 15px 13px 9px #333333;
+  }
+
+  p {
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 2rem;
+  }
+  @media screen and (max-width: 992px) {
+    padding: 5rem;
+  }
+}
+
+.investment-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 5rem 10rem;
+  text-align: center;
+  padding: 5rem 10rem;
+
+  h1 {
+    font-family: $font-secondary;
+    font-size: 2.5rem;
+    color: $primary-color;
+    margin-bottom: 3rem;
+    text-shadow: 15px 13px 9px #023773;
+  }
+
+  .focus-areas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    div {
+      width: 20rem;
+      margin: 1rem;
+      padding: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 2rem;
+  }
+  @media screen and (max-width: 992px) {
+    padding: 5rem;
+  }
+}

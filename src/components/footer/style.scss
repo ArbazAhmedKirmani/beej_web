@@ -1,0 +1,36 @@
+@import "../../variables.scss";
+
+.footer {
+  padding: 1rem;
+  padding-inline: 5rem;
+  background-color: $bg-color;
+  display: flex;
+  flex-shrink: 1;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    margin: 0;
+
+    a {
+      font-family: $font-secondary;
+      font-weight: 600;
+      color: $primary-color;
+      cursor: pointer;
+      text-decoration: none;
+    }
+  }
+}
+
+.footer-link-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 2rem;
+  padding-inline: 5rem;
+
+  .row {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
