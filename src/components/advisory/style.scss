@@ -14,13 +14,14 @@
   }
 
   p {
+    font-family: $font-secondary;
     text-align: center;
   }
 
   @media screen and (max-width: 768px) {
-    padding: 2rem;
+    padding: 5rem 2rem;
   }
   @media screen and (max-width: 992px) {
-    padding: 5rem;
+    padding: 7rem 4rem;
   }
 }
