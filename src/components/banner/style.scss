@@ -20,14 +20,15 @@
   }
 
   p {
+    font-family: $font-secondary;
     text-align: center;
   }
 
   @media screen and (max-width: 768px) {
-    padding: 2.5rem;
+    padding: 1rem;
   }
   @media screen and (max-width: 992px) {
-    padding: 10rem;
+    padding: 15rem 0 0;
   }
 
   .apply-btn {
@@ -37,16 +38,19 @@
     align-items: center;
 
     a {
+      font-family: $font-secondary;
       text-decoration: none;
       font-size: 1rem;
       border: 1px solid #2167b6;
       color: #2167b6;
       padding: 1rem 2.5rem;
       font-weight: 700;
-      margin: 10rem;
-      border-radius: 0.5rem;
-      max-width: 15rem;
-      &:hover {
+      margin: 10rem 0 0;
+      border-radius: 0.2rem;
+      width: 220px;
+
+      &:hover,
+      &:active {
         background-color: #2167b6;
         color: $bg-color;
       }

@@ -12,13 +12,15 @@ const Banner = () => {
           invested in more than 300 startups across various industries
         </p>
         <div className="apply-btn">
-          <a
-            href="https://2vr8mgdifnr.typeform.com/to/ZX7Wwcc6"
-            target="_blank"
-            className="apply-btn"
-          >
-            Find The BEEJ
-          </a>
+          <span>
+            <a
+              href="https://2vr8mgdifnr.typeform.com/to/ZX7Wwcc6"
+              target="_blank"
+              className="apply-btn"
+            >
+              Have An Idea!
+            </a>
+          </span>
         </div>
       </div>
     </section>

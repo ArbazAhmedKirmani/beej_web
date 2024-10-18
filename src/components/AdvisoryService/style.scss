@@ -1,0 +1,64 @@
+@import "../../variables.scss";
+
+.advisory-service {
+  padding: 10rem;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 0.5rem;
+
+    h1 {
+      font-family: $font-secondary;
+      margin-bottom: 5rem;
+      text-align: center;
+      text-shadow: 15px 13px 9px #333333;
+    }
+
+    .service {
+      display: flex;
+      flex-grow: 1;
+      justify-content: space-around;
+      width: 100%;
+      margin: 0;
+      padding: 0 10rem;
+
+      &:nth-of-type(odd) {
+        align-items: start;
+        text-align: left;
+      }
+      &:nth-of-type(even) {
+        align-items: end;
+        text-align: right;
+      }
+
+      div {
+        padding: 1rem;
+        // border: 1px solid rgb(45, 45, 45);
+        // box-shadow: 0 0 2px rgb(45, 45, 45);
+        border-radius: 1rem;
+
+        h3,
+        p {
+          font-family: $font-secondary;
+          line-height: 1.5;
+          margin-bottom: 0;
+        }
+
+        @media screen and (max-width: 768px) {
+          padding: 0;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 2rem;
+  }
+  @media screen and (max-width: 992px) {
+    padding: 5rem;
+  }
+}

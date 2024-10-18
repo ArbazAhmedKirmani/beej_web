@@ -1,4 +1,5 @@
 import Advisory from "@/components/advisory";
+import AdvisoryService from "@/components/AdvisoryService";
 import Banner from "@/components/banner";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
@@ -11,6 +12,7 @@ export default function Home() {
       <Banner />
       <Investment />
       <Advisory />
+      <AdvisoryService />
       <Footer />
     </>
   );
