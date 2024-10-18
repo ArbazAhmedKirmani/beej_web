@@ -43,9 +43,13 @@
       color: #2167b6;
       padding: 1rem 2.5rem;
       font-weight: 700;
-      margin: 5rem;
+      margin: 10rem;
       border-radius: 0.5rem;
       max-width: 15rem;
+      &:hover {
+        background-color: #2167b6;
+        color: $bg-color;
+      }
     }
   }
 }
