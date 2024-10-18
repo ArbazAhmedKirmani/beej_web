@@ -11,6 +11,15 @@ const Banner = () => {
           He is an experienced investor with over a decade of experience and has
           invested in more than 300 startups across various industries
         </p>
+        <div className="apply-btn">
+          <a
+            href="https://2vr8mgdifnr.typeform.com/to/ZX7Wwcc6"
+            target="_blank"
+            className="apply-btn"
+          >
+            Find The BEEJ
+          </a>
+        </div>
       </div>
     </section>
   );
