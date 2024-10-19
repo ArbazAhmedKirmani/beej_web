@@ -3,7 +3,9 @@ const Investment = () => {
     <>
       <section id="investment">
         <div className="container">
-          <h1>Investments</h1>
+          <h1>
+            <strong>Investments</strong>
+          </h1>
           <p>
             At Beej Capital, we are passionate about fueling the future of
             financial services by investing in fintech startups that are poised
@@ -53,6 +55,17 @@ const Investment = () => {
               products.
             </p>
           </div>
+        </div>
+        <div className="apply-btn">
+          <span>
+            <a
+              href="https://2vr8mgdifnr.typeform.com/to/ZX7Wwcc6"
+              target="_blank"
+              className="apply-btn"
+            >
+              Have An Idea!
+            </a>
+          </span>
         </div>
       </section>
     </>

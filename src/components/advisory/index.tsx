@@ -1,7 +1,9 @@
 const Advisory = () => {
   return (
     <section id="advisory" className="container">
-      <h1>Advisory</h1>
+      <h1>
+        <strong>Advisory</strong>
+      </h1>
       <p>
         Beej’s Advisory team brings unparalleled expertise in product
         development, go-to-market strategies, and scaling early-stage fintech

@@ -6,9 +6,9 @@ const Footer = () => {
         <p>
           © 2024 <a href="#home">BEEJ</a>. All rights reserved.
         </p>
-        <p>
+        {/* <p className="right">
           Handcrafted by the <a href="#home">BEEJ</a> team
-        </p>
+        </p> */}
       </footer>
     </>
   );

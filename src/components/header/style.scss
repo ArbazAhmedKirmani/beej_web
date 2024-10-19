@@ -21,16 +21,13 @@
       align-items: center;
 
       .nav-link {
+        font-family: $font-secondary;
         font-weight: 400;
         color: #f8f8f8;
         letter-spacing: 2px;
         &:hover {
           color: $primary-color;
         }
-      }
-
-      .beej-navbar-nav {
-        color: $text-color !important;
       }
     }
   }
@@ -45,7 +42,32 @@
   .navbar-collapse {
     flex-grow: 0 !important;
   }
-  .navbar-toggler {
-    background-color: $primary-color;
+  .navbar-toggle-btn {
+    border: none;
+    color: white;
+
+    &:focus {
+      box-shadow: none;
+    }
+
+    svg {
+      height: 1.6rem;
+      width: 1.6rem;
+      fill: #ebebeb;
+      vertical-align: bottom;
+    }
+  }
+
+  .beej-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid $primary-color;
+    color: $primary-color;
+    padding-inline: 1rem;
+
+    h2 {
+      margin: 0;
+    }
   }
 }

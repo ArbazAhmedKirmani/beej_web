@@ -1,55 +1,42 @@
+"use client";
+
+import { Nav, NavbarCollapse, NavbarToggle, NavLink } from "react-bootstrap";
+
 const Menus = () => {
+  const menuClicked = () => {
+    document?.getElementById("beej-navbar-nav")?.classList?.toggle("show");
+  };
+
   return (
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">
-            Home
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">
-            Link
-          </a>
-        </li>
-        <li className="nav-item dropdown">
-          <a
-            className="nav-link dropdown-toggle"
-            href="#"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Dropdown
-          </a>
-          <ul className="dropdown-menu">
-            <li>
-              <a className="dropdown-item" href="#">
-                Action
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Another action
-              </a>
-            </li>
-            <li>
-              <hr className="dropdown-divider" />
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Something else here
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link disabled" aria-disabled="true">
-            Disabled
-          </a>
-        </li>
-      </ul>
-    </div>
+    <>
+      <NavbarToggle
+        className="navbar-toggle-btn"
+        aria-controls="beej-navbar-nav"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          x="0px"
+          y="0px"
+          width="100"
+          height="100"
+          viewBox="0 0 50 50"
+        >
+          <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>
+        </svg>
+      </NavbarToggle>
+      <NavbarCollapse id="beej-navbar-nav">
+        <Nav className="me-auto">
+          <NavLink href="#investment" onClick={menuClicked}>
+            Investments
+          </NavLink>
+          <NavLink href="#advisory" onClick={menuClicked}>
+            Advisory
+          </NavLink>
+          {/* <NavLink href="#product">Product</NavLink>
+              <NavLink href="#content">Content</NavLink> */}
+        </Nav>
+      </NavbarCollapse>
+    </>
   );
 };
 

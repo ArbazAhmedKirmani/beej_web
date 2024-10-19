@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(0deg, #1a1a1a, rgba(5, 5, 5, 0.3));
+  background: transparent;
   //   ,
   //     url("../../assets/banner-bg.jpg");
   background-size: cover;
@@ -16,7 +16,7 @@
     font-family: $font-secondary;
     line-height: 1.5;
     text-align: center;
-    color: $primary-color;
+    color: whitesmoke;
   }
 
   p {
@@ -29,31 +29,5 @@
   }
   @media screen and (max-width: 992px) {
     padding: 15rem 0 0;
-  }
-
-  .apply-btn {
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-    align-items: center;
-
-    a {
-      font-family: $font-secondary;
-      text-decoration: none;
-      font-size: 1rem;
-      border: 1px solid #2167b6;
-      color: #2167b6;
-      padding: 1rem 2.5rem;
-      font-weight: 700;
-      margin: 10rem 0 0;
-      border-radius: 0.2rem;
-      width: 220px;
-
-      &:hover,
-      &:active {
-        background-color: #2167b6;
-        color: $bg-color;
-      }
-    }
   }
 }

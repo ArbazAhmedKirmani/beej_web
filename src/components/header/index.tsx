@@ -1,12 +1,6 @@
-import {
-  Container,
-  Nav,
-  Navbar,
-  NavbarCollapse,
-  NavbarToggle,
-  NavLink,
-} from "react-bootstrap";
+import { Container, Navbar } from "react-bootstrap";
 import BrandLogo from "./BrandLogo";
+import Menus from "./menus";
 
 const Header = () => {
   return (
@@ -14,15 +8,7 @@ const Header = () => {
       <Navbar expand="md" className="navbar-fixed">
         <Container className="header-container">
           <BrandLogo />
-          <NavbarToggle aria-controls="beej-navbar-nav" />
-          <NavbarCollapse id="beej-navbar-nav">
-            <Nav className="me-auto">
-              <NavLink href="#investment">Investments</NavLink>
-              <NavLink href="#advisory">Advisory</NavLink>
-              {/* <NavLink href="#product">Product</NavLink>
-              <NavLink href="#content">Content</NavLink> */}
-            </Nav>
-          </NavbarCollapse>
+          <Menus />
         </Container>
       </Navbar>
     </div>
