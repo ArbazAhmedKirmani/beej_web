@@ -34,7 +34,7 @@ const Investment = () => {
           </span>
           <span>
             <a
-              href="https://2vr8mgdifnr.typeform.com/to/ZX7Wwcc6"
+              href="https://2vr8mgdifnr.typeform.com/to/zbOhHsJ5"
               target="_blank"
             >
               I&lsquo;m a Founder
