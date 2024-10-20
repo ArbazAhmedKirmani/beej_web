@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { Nav, NavbarCollapse, NavbarToggle, NavLink } from "react-bootstrap";
 
 const Menus = () => {
@@ -26,14 +27,20 @@ const Menus = () => {
       </NavbarToggle>
       <NavbarCollapse id="beej-navbar-nav">
         <Nav className="me-auto">
-          <NavLink href="#investment" onClick={menuClicked}>
+          <Link href="/" className="nav-link" onClick={menuClicked}>
+            Home
+          </Link>
+          <NavLink href="/#investment" onClick={menuClicked}>
             Investments
           </NavLink>
-          <NavLink href="#advisory" onClick={menuClicked}>
+          <Link
+            href="/advisory"
+            className="nav-link"
+            onClick={menuClicked}
+            prefetch
+          >
             Advisory
-          </NavLink>
-          {/* <NavLink href="#product">Product</NavLink>
-              <NavLink href="#content">Content</NavLink> */}
+          </Link>
         </Nav>
       </NavbarCollapse>
     </>

@@ -1,4 +1,4 @@
-const Advisory = () => {
+const AdvisoryComponent = () => {
   return (
     <section id="advisory" className="container">
       <h1>
@@ -20,4 +20,4 @@ const Advisory = () => {
   );
 };
 
-export default Advisory;
+export default AdvisoryComponent;

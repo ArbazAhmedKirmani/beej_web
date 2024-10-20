@@ -23,6 +23,24 @@ const Investment = () => {
             achieve their full potential.
           </p>
         </div>
+        <div className="apply-btn">
+          <span>
+            <a
+              href="https://2vr8mgdifnr.typeform.com/to/ZX7Wwcc6"
+              target="_blank"
+            >
+              I&lsquo;m an Investor
+            </a>
+          </span>
+          <span>
+            <a
+              href="https://2vr8mgdifnr.typeform.com/to/ZX7Wwcc6"
+              target="_blank"
+            >
+              I&lsquo;m a Founder
+            </a>
+          </span>
+        </div>
       </section>
       <section className="investment-detail">
         <h1>Our Areas of Focus</h1>
@@ -55,17 +73,6 @@ const Investment = () => {
               products.
             </p>
           </div>
-        </div>
-        <div className="apply-btn">
-          <span>
-            <a
-              href="https://2vr8mgdifnr.typeform.com/to/ZX7Wwcc6"
-              target="_blank"
-              className="apply-btn"
-            >
-              Have An Idea!
-            </a>
-          </span>
         </div>
       </section>
     </>

@@ -5,34 +5,28 @@ const AdvisoryService = () => {
         <h1>Our Key Advisory Services</h1>
 
         <div className="service">
-          <div>
+          <div className="service-cont">
             <h3>Go-to-Market Strategy</h3>
             <p>
               Helping you build a roadmap for launching your product in new
               markets.
             </p>
           </div>
-        </div>
-        <div className="service">
-          <div>
+          <div className="service-cont">
             <h3>Product Launch</h3>
             <p>
               Ensuring a successful rollout with strategic planning, marketing,
               and partnerships.
             </p>
           </div>
-        </div>
-        <div className="service">
-          <div>
+          <div className="service-cont">
             <h3>Product Development</h3>
             <p>
               Assisting in the creation and refinement of products that meet
               market demand.
             </p>
           </div>
-        </div>
-        <div className="service">
-          <div>
+          <div className="service-cont">
             <h3>Scale and Growth</h3>
             <p>
               Crafting strategies for scaling your business, attracting
